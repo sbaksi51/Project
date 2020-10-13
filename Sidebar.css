@@ -1,0 +1,18 @@
+.sidebar {
+    flex: 0.30;
+    border-right: 5px solid lightgray;
+}
+
+.sidebar_header {
+    display: flex;
+    padding: 30px;
+    border-bottom: 5px solid lightgray;
+}
+
+.sidebar_headerRight {
+    padding: 15px;
+}
+
+.bot_icon {
+    height: 10vh;
+}

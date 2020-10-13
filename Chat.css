@@ -1,0 +1,31 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    flex: 0.70;
+    background-image: url("/images/chat_body.jpg");
+}
+
+.chat_header {
+    margin-left: 92%;
+}
+
+.chatbot {
+    display: grid;
+    place-items: center;
+}
+
+.chatbot > .react-chatbot-kit-chat-container {
+    position: relative;
+    margin-top: 8%;
+    width: 80%;
+}
+
+.chatbot > .react-chatbot-kit-chat-container > .react-chatbot-kit-chat-inner-container > .react-chatbot-kit-chat-message-container {
+    overflow: auto;
+}
+
+.chatbot > .react-chatbot-kit-chat-container > .react-chatbot-kit-chat-inner-container > .react-chatbot-kit-chat-message-container >
+ .react-chatbot-kit-chat-bot-message-container > .react-chatbot-kit-chat-bot-message {
+    margin-left: unset;
+    width: fit-content;
+}
